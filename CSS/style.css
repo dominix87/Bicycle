@@ -21,10 +21,11 @@ h1 {
 /*Конец Хэдера*/
 /*Начало верхнего меню*/
 .top__menu ul {
-	outline: 1px solid red;
+	outline: 0px solid red;
 	height: 40px;
 	background-image: url(../images/menu.png);
 	background-repeat: repeat-x;
+	padding-bottom: 50px;
 }
 .top__menu ul li {
 	display: inline;
@@ -46,26 +47,23 @@ h1 {
 /*Конец верхнего меню*/
 /*начало контента*/
 .left_column ul {
-	float: left;;
+	float: left;
 	outline: 0px solid blue;
-	width: 240px;
-	padding-top: 50px;
+	border: 1px solid #c8c8c8;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 .left_column ul li {
-	border: 1px solid #c8c8c8;
-	width: 240px;
-	height: 40px;
+	border-bottom: 1px solid #c8c8c8;
 }
 .left_column ul li a {
 	display: block;
-	width: 200px;
-	padding: 15px 20px;
-	color: #7a7878;
-	text-decoration: none;
+	padding: 12px;
+	width: 215px;
 }
 .left_column ul li a:hover {
-	padding: 15px 25px;
+	padding: 12px 25px;
 	background-color: #f9f9f9;
 	width: 188px;
 }
