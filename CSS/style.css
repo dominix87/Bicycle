@@ -1,0 +1,72 @@
+@import"reset.css";
+
+.wrapper {
+	width: 1060px;
+	margin: 0 auto;
+	outline: 1px solid black;
+	padding: 46px;
+}
+.clearfix {
+	display: table;
+	content: ""
+	clear: both;
+}
+/*Начало Хэдера*/
+h1 {
+	font-size: 38px;
+	font-weight: 700;
+	color: red;
+	padding-bottom: 25px;
+}
+/*Конец Хэдера*/
+/*Начало верхнего меню*/
+.top__menu ul {
+	outline: 1px solid red;
+	height: 40px;
+	background-image: url(../images/menu.png);
+	background-repeat: repeat-x;
+}
+.top__menu ul li {
+	display: inline;
+	outline: 0px solid black;
+}
+.top__menu ul li a {
+	outline: 0px solid black;
+	color: #ffffff;
+	display: inline-block;
+	padding: 12px 45px 12px 45px;
+
+}
+.top__menu ul li a:hover{
+	background-image: url(../images/menu_hover.png);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+	padding: 12px 44px 12px 44px;
+}
+/*Конец верхнего меню*/
+/*начало контента*/
+.left_column ul {
+	float: left;;
+	outline: 0px solid blue;
+	width: 240px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+.left_column ul li {
+	border: 1px solid #c8c8c8;
+	width: 240px;
+	height: 40px;
+}
+.left_column ul li a {
+	display: block;
+	width: 200px;
+	padding: 15px 20px;
+	color: #7a7878;
+	text-decoration: none;
+}
+.left_column ul li a:hover {
+	padding: 15px 25px;
+	background-color: #f9f9f9;
+	width: 188px;
+}
+/*Конец контента*/
